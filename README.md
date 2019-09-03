@@ -14,3 +14,5 @@
 		pod "ReactiveCocoa", '~> 2.5'
 
 		end
+- RAC统一了对KVO、UI Event、Network request、Async work的处理，因为它们本质上都是值的变化(Values over time)。
+- 
